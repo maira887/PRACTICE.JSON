@@ -1,4 +1,4 @@
- = [
+jsonData = [
   {
     name: "maira",
     class: 1,
@@ -15,7 +15,7 @@
     name: "laiba",
     class: 2,
     rollno: 7,
-  },jsonData
+  },
 ];
 function adddata(name1, class1, roll1) {
   data = {
@@ -24,4 +24,18 @@ function adddata(name1, class1, roll1) {
     rollno: rollno1,
   };
 }
+
+function addUser(name, Class) {
+  data = {
+    name: zahra,
+    class: 8,
+  };
+}
 console.log("new user added");
+let data = jsonData;
+updatedData = [];
+
+if (updatedData.length > 0) {
+  console.log("User added sucessfully");
+  console.log(updatedData);
+}
